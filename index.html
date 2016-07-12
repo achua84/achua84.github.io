@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<div class="All">
 <title>Andreana Chua's Profile</title>
 
 <div class="Border">
@@ -23,21 +24,20 @@ University of Nevada- Las Vegas
 
 
 <h2>My Favorite Books</h2>
-<div class="Pos">
-  <div class="Books">
-    <p>Percy Jackson Series</p>
+  <section class="Item1">
+    <p class="centerT">Percy Jackson Series</p>
     <img src="PJ.jpg" width="80" height="120" alt="Photo of 1st Percy Jackson Book" class="center">
-  </div>
+  </section>
 
-  <div class="Books">
-    <p>Heroes of Olympus Series </p>
+  <section class="Item2">
+    <p class="centerT">Heroes of Olympus Series </p>
     <img src="HoO.png" width="80" height="120" alt="Photo of 1st Heroes of Olympus book" class="center">
-  </div>
+  </section>
 
-  <div class="Books">
-    <p>Harry Potter</p>
+  <section class="Item3">
+    <p class="centerT">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Harry Potter</p>
     <img src="HP.jpg" width="80" height="120" alt="Photo of 1st Harry Potter Book" class="center">
-  </div>
+  </section>
 
 <!--
 <h2>My Favorite Books</h2>
@@ -57,10 +57,16 @@ University of Nevada- Las Vegas
   <li><a href="https://www.facebook.com/andreana.chua">Facebook</a></li>
 </ul>
 
+</div>
+
 <style>
 
 h1, h2 {
   font-family: Cooper Black;
+}
+
+.All{
+  background-color: aqua;
 }
 
 div.Border {
@@ -68,17 +74,37 @@ div.Border {
   height: 250px;
   margin-left: 600px;
   border: solid;
-  padding-left: 10px;
-  background-color: aqua;
+  padding-left: 20px;
+  background-color: white;
 }
 
-div.Books {
-  width: 150px;
-  border: solid;
+.center{
+  margin-left: 33%;
 }
 
-img.center{
-  margin-left: 30px;
+.centerT{
+  margin-left: 25%;
+}
+
+.Item1{
+  display: inline-block;
+  width: 30%;
+  background: aqua;
+  margin:5px
+}
+
+.Item2{
+  display: inline-block;
+  width: 30%;
+  background: aqua;
+  margin: 5px
+}
+
+.Item3{
+  display: inline-block;
+  width: 30%;
+  background: aqua;
+  margin: 5px
 }
 
 }
