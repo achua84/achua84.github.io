@@ -1,0 +1,65 @@
+h1, h2 {
+  font-family: Cooper Black;
+}
+
+
+div.Border {
+  width: 280px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  padding-left: 20px;
+  background-color: white;
+}
+
+.center{
+  margin-left: 50%;
+}
+
+.centerT{
+  margin-left: 40%;
+}
+
+.BigCenter{
+    display:flex;
+    justify-content: center;
+}
+
+.CenterPic {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Item1{
+  display: inline-block;
+  width: 30%;
+  background: aqua;
+  margin:5px
+}
+
+.Item2{
+  width: 200px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  padding-left: 23px;
+  background-color: aqua;
+}
+
+#wall {
+    display: block;
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: top right bottom left; */
+    background: white;
+}
+
+.Item3 {
+  margin-left: 40%;
+  margin-top: 35%;
+}
