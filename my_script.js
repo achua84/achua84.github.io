@@ -29,15 +29,16 @@ function setupHandlers() {
       })}
 
 
-  function setupHandlers() {
+  function setupHandlers3() {
       $("#wall img").on("mouseenter", function() {
       $(this).fadeIn();
-      alert("The image was found!");  
+      alert("The image was found!");
     })}
 
 $(document).ready(setupHandlers);
 $(document).ready(setupHandlers1);
 $(document).ready(setupHandlers2);
+(document).ready(setupHandlers3);
 
 /*function setupHandlers() {
   var isReaction = false;
