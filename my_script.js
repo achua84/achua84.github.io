@@ -38,7 +38,7 @@ function setupHandlers() {
 $(document).ready(setupHandlers);
 $(document).ready(setupHandlers1);
 $(document).ready(setupHandlers2);
-(document).ready(setupHandlers3);
+$(document).ready(setupHandlers3);
 
 /*function setupHandlers() {
   var isReaction = false;
